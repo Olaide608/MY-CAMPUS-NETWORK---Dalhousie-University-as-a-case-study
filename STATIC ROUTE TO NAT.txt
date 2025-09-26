@@ -1,0 +1,5 @@
+The configuration below defines the static route from Sexton Campus to the NAT, enabling the LAN campus network to connect to the internet. Studley Campus is set as the primary route, with Truro Campus configured as a backup to ensure redundancy in case of route failure.
+
+*SEXTON*
+ip route 0.0.0.0 0.0.0.0 155.1.2.2 2
+ip route 0.0.0.0 0.0.0.0 155.1.3.2 10

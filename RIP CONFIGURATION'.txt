@@ -1,0 +1,19 @@
+*SEXTON*
+router rip
+ version 2
+ redistribute connected #For NAT-learned routes
+ network 155.1.0.0
+
+*LS1*
+router rip
+ version 2
+ redistribute connected #For NAT-learned routes
+ network 10.0.0.0
+ network 155.1.0.0
+
+*LS2*
+router rip
+ version 2
+ redistribute connected #For NAT-learned routes
+ network 10.0.0.0
+ network 155.1.0.0
