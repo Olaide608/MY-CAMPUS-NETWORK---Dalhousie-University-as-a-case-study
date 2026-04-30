@@ -1,7 +1,6 @@
 # MY-CAMPUS-NETWORK---Dalhousie-University-as-a-case-study
 <img width="3200" height="1966" alt="MY CAMPUS NETWORK" src="https://github.com/user-attachments/assets/a3622b9d-49c2-4e11-bcee-cc1764b08d21" />
 
-The project is evolving - I’ll keep updating as I configure more features
 
 The objective of this project is to demonstrate several network protocols I explored during the summer, using a conceptual model of Dalhousie University’s campus LAN with a primary focus on Sexton Campus. The design incorporates both Layer 2 and Layer 3 technologies, including iBGP, OSPF, FHRP, RIP, Static Routing, DHCP, VTP, and VLAN.
 
